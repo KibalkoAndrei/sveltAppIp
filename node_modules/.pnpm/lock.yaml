@@ -1,0 +1,29 @@
+lockfileVersion: 5.4
+
+specifiers:
+  svelte: ^3.55.0
+  svelte-frappe-charts: ^1.10.0
+
+dependencies:
+  svelte: 3.55.0
+  svelte-frappe-charts: 1.10.0_svelte@3.55.0
+
+packages:
+
+  /frappe-charts/1.6.2:
+    resolution: {integrity: sha512-9TC3/+YVUi84yYoEbxFiSqu+1FQ5If/ydUNj6i8FRpwynd08t6a7RkS+IRJozAk6NfdL8/LVTTE1DUOjjKZZxg==}
+    dev: false
+
+  /svelte-frappe-charts/1.10.0_svelte@3.55.0:
+    resolution: {integrity: sha512-TkkcovOAeoieiDFFJS7p56E91WcS5qFq5lpkF+yuCBMG17HaC+7PrkT/0zzii0BBnYlOuumsfb9S5UmsDZRhdg==}
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      frappe-charts: 1.6.2
+      svelte: 3.55.0
+    dev: false
+
+  /svelte/3.55.0:
+    resolution: {integrity: sha512-uGu2FVMlOuey4JoKHKrpZFkoYyj0VLjJdz47zX5+gVK5odxHM40RVhar9/iK2YFRVxvfg9FkhfVlR0sjeIrOiA==}
+    engines: {node: '>= 8'}
+    dev: false
